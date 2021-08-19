@@ -49,7 +49,7 @@ create_emlab_dirs <- function(project_codename, other_dirs = NULL){
   dir.create(path = project_path)
 
   # Standard directories
-  standard_dirs <- c("data/01_raw_data", "data/02_processed_data", "data/03_output_data", "figures", "presentations")
+  standard_dirs <- c("data", "data/01_raw_data", "data/02_processed_data", "data/03_output_data", "figures", "presentations")
   sapply(file.path(project_path, standard_dirs), dir.create)
 
   if(!is.null(other_dirs)){

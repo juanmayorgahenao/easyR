@@ -22,7 +22,7 @@ ggtheme_map <- function(base_size = 9) {
         panel.grid.major = element_line(color = "#ebebe5", size = 0.2),
         axis.ticks = element_blank(),
         axis.line = element_blank(),
-        axis.text = element_blank(size = base_size),
+        axis.text = element_blank(),
         axis.title = element_blank(),
         legend.text = element_text(size = base_size),
         legend.text.align = 0,
